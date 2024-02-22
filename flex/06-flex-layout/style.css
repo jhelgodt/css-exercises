@@ -25,3 +25,36 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.header ul, .footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  height: calc(100vh - 2*60px); /* Subtract the height of the header and footer */
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+}

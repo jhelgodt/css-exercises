@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Style for the div with class "p" */
+.styled-class {
+    background-color: lightcoral; /* Light red/pink background */
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif; /* Font stack with fallback to sans-serif */
+}
+
+#styled-id-1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#styled-id-2{
+    font-size: 24px;
+}
+
+#styled-id-3{
+    font-size: 24px;
+    background-color: rgb(130, 240, 128);
+    font-weight: bold;
+}
